@@ -1,70 +1,179 @@
-# Getting Started with Create React App
+## Huemn Interactive Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+
+Huemn Interactive Assignment is a React application created to showcase interactive UI/UX features (as part of an assignment). It was bootstrapped using Create React App. The app is live at huemn-interactive-assignment.vercel.app
+
+## Table of Contents
+
+About
+
+Features
+
+Tech Stack
+
+Getting Started
+
+Prerequisites
+
+Installation
+
+Available Scripts
+
+Folder Structure
+
+Deployment
+
+Future Enhancements
+
+Contributing
+
+License
+
+Contact
+
+## Features
+
+Responsive UI
+
+Interactive components (buttons, forms, animations etc.)
+
+Clean design and styling
+
+Cross-browser compatibility
+
+(You can list more specific features depending on what the app does: e.g. Navigation, Modal Dialogs, State Management, API Integration, etc.)
+
+## Tech Stack
+
+Framework: React (Create React App)
+
+Languages: JavaScript, HTML, CSS
+
+Bundler / Build Tool: Webpack (via Create React App)
+
+Deployment: Vercel
+
+## Getting Started
+
+## Prerequisites
+
+Before you begin, ensure you have:
+
+Node.js (version p.s. latest LTS recommended)
+
+npm or yarn
+
+## Installation
+
+Clone the repo:
+
+git clone https://github.com/ibrahim9492/Huemn_Interactive_Assignment.git
+
+cd Huemn_Interactive_Assignment
+
+Install dependencies:
+
+npm install
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+Script	Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm start	Runs the app in development mode. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+GitHub
 
-### `npm test`
+npm test	Launches the test runner in interactive watch mode. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+GitHub
 
-### `npm run build`
+npm run build	Builds the app for production to the build folder. Minified, optimized, filenames include hashes. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+GitHub
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm run eject	Ejects CRA configuration. Warning: This is irreversible. Use only if you need full control.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Folder Structure
 
-### `npm run eject`
+Huemn_Interactive_Assignment/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+├── public/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+│   └── index.html
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+├── src/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+│   ├── components/
 
-## Learn More
+│   ├── assets/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+│   ├── styles/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+│   ├── App.js
 
-### Code Splitting
+│   └── index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+├── .gitignore
 
-### Analyzing the Bundle Size
+├── package.json
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+├── package-lock.json
 
-### Making a Progressive Web App
+└── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Deployment
 
-### Advanced Configuration
+This project is deployed on Vercel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+After running npm run build, you can push to a Git branch connected to Vercel, or use Vercel’s CLI / dashboard to deploy.
 
-### Deployment
+## Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Here are some ideas for improvements:
 
-### `npm run build` fails to minify
+Add unit & integration tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Improve accessibility (a11y)
+
+Add theming / dark mode
+
+Introduce state management (e.g. Redux or Context API, if the app scales)
+
+Performance optimizations & code splitting
+
+## Contributing
+
+Contributions are welcome! If you’d like to help out:
+
+Fork the repository
+
+Create a new branch (git checkout -b feature/my-feature)
+
+Make your changes & test locally
+
+Commit your changes (git commit -m 'Add some feature')
+
+Push to your fork (git push origin feature/my-feature)
+
+Open a Pull Request
+
+Please ensure code style is consistent.
+
+## License
+
+Specify the license under which the project is distributed. For example:
+
+MIT License
+
+See the LICENSE
+
+file for details.
+
+## Contact
+
+Author: Ibrahim (GitHub: ibrahim9492)
+
+Project URL: https://github.com/ibrahim9492/Huemn_Interactive_Assignment
