@@ -12,7 +12,7 @@ Huemn Interactive Assignment is a React application created to showcase interact
 
 - **GSAP (GreenSock Animation Platform):** A professional-grade JavaScript animation library. GSAP gives us precise control over every aspect of an animation (timing, sequencing, easing), making it the perfect tool for
 
-replicating the fluid and complex animations on the Chrome page.
+  replicating the fluid and complex animations on the Chrome page.
 
 ## Table of Contents
 
